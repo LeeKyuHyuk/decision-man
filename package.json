@@ -1,0 +1,46 @@
+{
+  "name": "decision-man",
+  "version": "1.0.1",
+  "description": "결정맨!! 당신의 선택을 도와드립니다!",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.config.js",
+    "dev": "NODE_ENV=development webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeKyuHyuk/decision-man.git"
+  },
+  "keywords": [
+    "decision",
+    "kakaotalk"
+  ],
+  "author": "KyuHyuk Lee <lee@kyuhyuk.kr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeeKyuHyuk/decision-man/issues"
+  },
+  "homepage": "https://github.com/LeeKyuHyuk/decision-man#readme",
+  "dependencies": {
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.10",
+    "antd": "^4.16.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.0.0",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.4",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
